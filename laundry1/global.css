@@ -6,19 +6,23 @@ body {
 :root {
   /* fonts */
   --font-poppins: Poppins;
+  --font-patrick-hand: "Patrick Hand";
   --font-yatra-one: "Yatra One";
   --font-limelight: Limelight;
 
   /* font sizes */
+  --font-size-lg: 18px;
   --font-size-base: 16px;
 
   /* Colors */
   --color-white: #fff;
-  --color-whitesmoke: #efefef;
+  --color-thistle: rgba(204, 192, 221, 0.67);
   --color-slategray-100: #685c79;
-  --color-slategray-200: rgba(104, 92, 121, 0.85);
-  --color-slategray-300: rgba(104, 92, 121, 0.5);
+  --color-slategray-200: rgba(104, 92, 121, 0.5);
+  --color-slategray-300: rgba(104, 92, 121, 0.85);
+  --color-whitesmoke: #efefef;
 
   /* border radiuses */
+  --br-16xl: 35px;
   --br-11xs: 2px;
 }

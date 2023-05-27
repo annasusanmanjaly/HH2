@@ -55,44 +55,44 @@
   max-width: 100%;
   max-height: 100%;
 }
-.number-of-pieces {
+.pieces,
+.required {
   position: absolute;
-  top: 190px;
-  left: 8px;
-  font-size: 18px;
-  font-family: var(--font-yatra-one);
+  top: 282px;
+}
+.pieces {
+  left: 1px;
   display: inline-block;
   width: 170px;
   height: 24px;
 }
 .required {
-  position: absolute;
-  top: 190px;
-  left: 168px;
-  font-weight: 500;
-  color: var(--color-slategray-300);
+  left: 75px;
+  font-size: var(--font-size-base);
+  color: var(--color-slategray-200);
 }
+.required,
 .span {
   font-weight: 500;
   font-family: var(--font-poppins);
 }
+.required1,
 .wetdry-cleaning {
   position: absolute;
-  top: 314px;
-  left: 8px;
-  font-family: var(--font-yatra-one);
+  top: 406px;
+  left: 1px;
+  font-size: var(--font-size-base);
 }
 .required1 {
-  position: absolute;
-  top: 314px;
-  left: 154px;
+  left: 147px;
   font-weight: 500;
-  color: var(--color-slategray-300);
+  font-family: var(--font-poppins);
+  color: var(--color-slategray-200);
 }
 .laundry-item {
   position: absolute;
-  top: 471px;
-  left: 18px;
+  top: 563px;
+  left: 11px;
   border-radius: var(--br-11xs);
   background: linear-gradient(
     90deg,
@@ -109,49 +109,42 @@
 .ironing,
 .required2 {
   position: absolute;
-  top: 441px;
-}
-.ironing {
-  left: 8px;
-  font-family: var(--font-yatra-one);
+  top: 533px;
+  left: 1px;
+  font-size: var(--font-size-base);
 }
 .required2 {
-  left: 71px;
+  left: 64px;
   font-weight: 500;
-  color: var(--color-slategray-300);
+  font-family: var(--font-poppins);
+  color: var(--color-slategray-200);
 }
 .laundry-inner {
   position: absolute;
-  top: 588px;
-  left: 72px;
-  border-radius: 35px;
+  top: 664px;
+  left: 208px;
+  border-radius: var(--br-16xl);
   background-color: var(--color-slategray-100);
-  width: 222px;
-  height: 62px;
+  width: 122px;
+  height: 57px;
 }
-.book-now {
+.view-bill {
   position: absolute;
-  top: 607px;
-  left: 138px;
-  font-weight: 500;
+  top: 675px;
+  left: 234px;
+  font-size: 22px;
+  font-family: var(--font-patrick-hand);
   color: var(--color-white);
+  display: inline-block;
+  width: 90px;
+  height: 38px;
 }
-.vector-icon2 {
-  position: absolute;
-  height: 1.66%;
-  width: 4.62%;
-  top: 57.58%;
-  right: 8.97%;
-  bottom: 40.76%;
-  left: 86.41%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
+.laundry-child1,
+.laundry-child2,
 .rectangle-div {
   position: absolute;
-  top: 346px;
-  left: 18px;
+  top: 438px;
+  left: 11px;
   border-radius: var(--br-11xs);
   background: linear-gradient(
     90deg,
@@ -165,34 +158,52 @@
   width: 348px;
   height: 46px;
 }
-.vector-icon3 {
-  position: absolute;
-  height: 1.66%;
-  width: 4.62%;
-  top: 42.89%;
-  right: 8.97%;
-  bottom: 55.45%;
-  left: 86.41%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
+.laundry-child1,
+.laundry-child2 {
+  top: 314px;
 }
-.laundry-child1 {
+.laundry-child2 {
+  top: 203px;
+}
+.cloth {
   position: absolute;
-  top: 222px;
-  left: 18px;
-  border-radius: var(--br-11xs);
-  background: linear-gradient(
-    90deg,
-    #edebef,
-    rgba(237, 235, 239, 0.86) 11.56%,
-    rgba(237, 235, 239, 0.34)
-  );
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  border: 1px solid var(--color-whitesmoke);
-  box-sizing: border-box;
-  width: 348px;
-  height: 46px;
+  top: 173px;
+  left: 4px;
+  display: inline-block;
+  width: 170px;
+  height: 24px;
+}
+.laundry-child3 {
+  position: absolute;
+  top: 664px;
+  left: 56px;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-slategray-100);
+  width: 122px;
+  height: 57px;
+}
+.add {
+  position: absolute;
+  top: 673px;
+  left: 95px;
+  font-size: 23px;
+  font-family: var(--font-patrick-hand);
+  color: var(--color-white);
+  display: inline-block;
+  width: 90px;
+  height: 38px;
+}
+.select,
+.yesno {
+  position: absolute;
+  top: 213px;
+  left: 31px;
+  font-family: var(--font-poppins);
+  color: var(--color-thistle);
+}
+.yesno {
+  top: 571px;
+  left: 41px;
 }
 .laundry {
   position: relative;
@@ -201,7 +212,7 @@
   height: 844px;
   overflow: hidden;
   text-align: left;
-  font-size: var(--font-size-base);
-  color: var(--color-slategray-200);
-  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  color: var(--color-slategray-300);
+  font-family: var(--font-yatra-one);
 }
