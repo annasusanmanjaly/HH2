@@ -13,6 +13,13 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
     />
+    <style>
+      input {
+        border: none;
+        border-bottom: 1px solid transparent;
+        outline: none;
+      }
+    </style>
   </head>
   <body>
     <div class="address">
@@ -20,33 +27,30 @@
       <img
         class="logo-removebg-preview-1-icon"
         alt=""
-        src="logoremovebgpreview-1@2x.png"
-      />
+        src="logoremovebgpreview-1@2x.png" />
 
       <div class="handyhome">HandyHome</div>
       <input class="address-item" type="text" />
 
-      <div class="name">Name</div>
-      <div class="required">(Required)*</div>
+      <input class="name" type="text" placeholder="Name(required*)"  />
+      <div class="required"></div>
       <input class="address-inner" type="text" />
-
-      <div class="phone-number">Phone number</div>
-      <div class="required1">(Required)*</div>
-      <div class="rectangle-div"></div>
-      <div class="pincode">Pincode</div>
-      <div class="required2">(Required)*</div>
+    <input class="phone-number" type="text" placeholder="Phone number(required*)"/> 
+     <div class="rectangle-div"></div>
+      <input class="pincode" type="number" placeholder="Pincode"/>
+      <div class="required2"></div>
       <div class="address-child1"></div>
       <div class="address-child2"></div>
-      <div class="state">State</div>
+      <input class="state" type="text" placeholder="State"/>
       <img class="vector-icon" alt="" src="vector.svg" />
 
-      <div class="city">City</div>
+      <input class="city" type="text" placeholder="City"/>
       <input class="rectangle-input" type="text" />
 
-      <div class="house-nobuilding-name">House No.,Building Name</div>
+      <input class="house-nobuilding-name" type="text" placeholder="House No.,Building Name"/>
       <input class="address-child3" type="text" />
 
-      <div class="road-name-area">Road name, Area, Colony</div>
+      <input class="road-name-area" type="text" placeholder="Road name, Area, Colony"/>
       <img
         class="home-fill0-wght400-grad0-opsz4-icon"
         alt=""
@@ -55,8 +59,8 @@
 
       <img class="vector-icon1" alt="" src="vector1.svg" />
 
-      <div class="address-child4"></div>
-      <div class="save-address">Save Address</div>
+      
+      <button class="save-address">Save Address</button>
     </div>
   </body>
 </html>
