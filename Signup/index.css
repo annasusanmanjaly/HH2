@@ -108,7 +108,7 @@
   top: 687px;
   left: 130px;
   border-radius: 23px;
-  background-color: var(--color-slategray-100);
+  background-color:  slategrey;
   width: 153px;
   height: 44px;
 }
@@ -118,7 +118,7 @@
   left: 176px;
   font-weight: 500;
   color: #fafafb;
-  background-color: var(--color-slategray-100);
+  background-color:slategrey ;
   border: slategrey;}
 .frame-div {
   position: absolute;

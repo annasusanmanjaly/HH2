@@ -76,20 +76,22 @@
   }
   .rectangle-div {
     position: absolute;
-    top: 597px;
-    left: 118px;
-    border-radius: 23px;
-    background-color: var(--color-slategray-100);
-    width: 153px;
-    height: 44px;
+  top: 595px;
+  left: 124px;
+  border-radius: 23px;
+  background-color:  slategrey;
+  width: 153px;
+  height: 44px;
   }
   .log-in1 {
     position: absolute;
     top: 607px;
     left: 171px;
     font-weight: 500;
-    color: var(--color-white);
-  }
+    color: #0a0a0a;
+  background-color: slategrey ;
+  border: slategrey;}
+  
   .dont-have-an {
     position: absolute;
     top: 686px;
