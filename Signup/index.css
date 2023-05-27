@@ -117,8 +117,9 @@
   top: 697px;
   left: 176px;
   font-weight: 500;
-  color: var(--color-white);
-}
+  color: #fafafb;
+  background-color: var(--color-slategray-100);
+  border: slategrey;}
 .frame-div {
   position: absolute;
   top: 289px;
@@ -129,7 +130,7 @@
 }
 .signup {
   position: relative;
-  background-color: var(--color-white);
+  background-color:#fafafb ;
   width: 100%;
   height: 844px;
   overflow: hidden;
@@ -137,4 +138,5 @@
   font-size: var(--font-size-base);
   color: var(--color-slategray-200);
   font-family: var(--font-poppins);
+  
 }
