@@ -1,0 +1,16 @@
+{
+    "name": "Handyhome",
+    "short_name": "HH2",
+    "icons": [
+      {
+        "src": "./path/to/icon.png",
+        "sizes": "390x844",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
+  }
+  

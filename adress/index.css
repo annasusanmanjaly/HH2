@@ -41,23 +41,14 @@
   top: 204px;
   left: 21px;
   font-weight: 500;
+  
 }
 .required {
   left: 86px;
   color: var(--color-slategray-200);
 }
-.address-inner {
-  border: 1px solid var(--color-lightslategray-100);
-  background-color: var(--color-white);
-  position: absolute;
-  top: 265px;
-  left: 8px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  box-sizing: border-box;
-  width: 375px;
-  height: 46px;
-}
-.phone-number,
+
+.phone-number
 .required1 {
   position: absolute;
   top: 276px;
@@ -68,7 +59,8 @@
   left: 147px;
   color: var(--color-slategray-200);
 }
-.rectangle-div {
+
+.pincode{
   position: absolute;
   top: 347px;
   left: 8px;
@@ -79,7 +71,6 @@
   width: 194px;
   height: 46px;
 }
-.pincode,
 .required2 {
   position: absolute;
   top: 358px;
@@ -90,8 +81,8 @@
   left: 92px;
   color: var(--color-slategray-200);
 }
-.address-child1,
-.address-child2 {
+.city,
+.state {
   position: absolute;
   top: 429px;
   left: 9px;
@@ -131,7 +122,8 @@
   font-weight: 500;
   color: var(--color-slategray-100);
 }
-.rectangle-input {
+
+.house-nobuilding-name {
   border: 1px solid var(--color-lightslategray-100);
   background-color: var(--color-white);
   position: absolute;
@@ -141,14 +133,18 @@
   box-sizing: border-box;
   width: 374px;
   height: 46px;
-}
-.house-nobuilding-name {
   position: absolute;
   top: 525px;
   left: 22px;
   font-weight: 500;
+  
 }
-.address-child3 {
+
+.road-name-area {
+  position: absolute;
+  top: 600px;
+  left: 21px;
+  font-weight: 500;
   border: 1px solid var(--color-lightslategray-100);
   background-color: var(--color-white);
   position: absolute;
@@ -158,12 +154,6 @@
   box-sizing: border-box;
   width: 374px;
   height: 46px;
-}
-.road-name-area {
-  position: absolute;
-  top: 600px;
-  left: 21px;
-  font-weight: 500;
 }
 .home-fill0-wght400-grad0-opsz4-icon,
 .vector-icon1 {
@@ -238,4 +228,15 @@
   box-sizing: border-box;
   width: 259px;
   height: 42px;
+}
+.phone-number{
+  border: 1px solid var(--color-lightslategray-100);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 265px;
+  left: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 375px;
+  height: 46px
 }
